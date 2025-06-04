@@ -1,0 +1,188 @@
+/* laptop */
+@media screen and (max-width:1200px) {
+
+    #banner-text h2{
+        font-size:30px;
+    }
+    .border-des{
+    
+    padding:25px;
+    width:264px;
+    
+
+}
+}
+
+/* tablet */
+@media screen and (max-width:1024px) {
+     #banner-text h2{
+        font-size:17px;
+    }
+    
+#banner-text p {
+    font-size:12px;
+    line-height: 16px;
+}
+footer {
+    padding: 16px 75px;
+}
+#footer-text{
+    font-size: 16px;
+}
+.footer-img{
+    width:22px;
+}
+.heading-des h2 {
+    font-size: 26px;
+    
+}
+.heading-des p{
+        font-size: 12px;
+    
+    line-height: 20px;
+}
+#why-box{
+    flex-direction: column-reverse;
+    text-align: center;
+    
+
+}
+#why-box-contain{
+    width:550px;}
+    #why-box-image{
+    width:300px;}
+    #target-image{
+   flex-direction: column;
+
+}
+.border-des{
+    text-align: center;
+}
+
+  
+}
+
+
+/* mobile up to 425px*/
+@media screen and (max-width:640px) {
+    #banner-text h2{
+        font-size:9px;
+    }
+    #banner-text p{
+        font-size:8px ;
+        line-height: 12px;
+    }
+    header {
+    
+align-items: center;
+   
+    padding: 20px 30px;
+    
+}
+    #name{
+        font-size: 18px;
+    }
+    .button-des {
+    
+    
+    padding: 10px 15px;
+    width: 150px;
+    
+}
+    footer{
+        padding: 10px 50px;
+        align-items: center;
+    }
+    #footer-text{
+    font-size: 10px;
+}
+.footer-img{
+    width:15px;
+}
+#why-box{
+    flex-direction: column-reverse;
+    text-align: center ;
+    
+
+}
+#why-box-contain{
+    width:350px;}
+    #why-box-image{
+    width:200px;}
+    .heading-des h2 {
+    font-size: 26px;
+    
+}
+.heading-des p{
+        font-size:12px;
+    
+    line-height: 15px;
+}
+.heading-des h2{
+    font-size: 20px;
+}
+}
+
+
+/* small mobile (321-375px) */
+@media screen and (max-width:375px) {
+    header{
+        padding: 5px 5px;
+    }
+    header .button-des{
+        padding: 8px 16px;
+        width: 100px;
+    }
+
+    #why-box-contain h3 {
+    font-size: 16px;
+}
+#why-box-contain p{
+        font-size: 12px;
+    
+    line-height: 20px;
+}
+#inspiration{
+    padding:40px;
+}
+    #footer-text{
+        font-size:8px;
+    }
+    #banner {
+ 
+    padding: 25px 45px;
+  
+}
+}
+
+/* very small mobile up to 320 */
+@media screen and (max-width:320px) {
+   body{
+    margin-left:14px;
+   }
+   header{
+    background-color: transparent;
+   }
+   footer{
+    background-color: transparent;
+   }
+       header .button-des {
+        padding: 6px 12px;
+        width: 100px;
+    }
+    #why-box-contain h3{
+        font-size: 12px;
+    line-height: 30px;
+    }
+    #why-box-contain p {
+        font-weight: ;
+    font-size: 7px;
+    
+    line-height: 24px;
+}
+    footer {
+        flex-direction: column-reverse;
+        padding: 10px 50px;
+       
+    }
+}
